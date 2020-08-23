@@ -29,7 +29,6 @@ func main() {
 	}
 
 	dc.AddHandler(onReady)
-	dc.AddHandler(onMessageCreate)
 	dc.AddHandler(onMessageCreateCommandHandler)
 
 	err = dc.Open()
