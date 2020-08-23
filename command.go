@@ -30,7 +30,7 @@ var Commands = []Command{
 	{
 		name:     "avatar",
 		aliases:  []string{"av"},
-		category: "utility",
+		category: "information",
 		usages: []UsageData{
 			{usage: "!avatar <member>", desc: "menampilkan avatar member", examples: []string{"!avatar @Misogi"}},
 		},
